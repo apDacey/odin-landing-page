@@ -1,1 +1,1 @@
-# odin-landing-page
+This is my first full webpage using html and css. The topic of the webpage is a mini moto racing team that I am a part of with my friend and our fathers. The reason for the dark blue and yellow colors is because those are the colors of MotoGP legend Valentino Rossi, number 46. Our racing team is called 'Gaziarides'. This is the plural of the greek word 'Gaziaris', which means 'throttle happy' - referring to a motorcycle or car throttle. 

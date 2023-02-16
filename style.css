@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+/*Navbar Section*/
+.navbar {
+    display: flex;
+    background-color: darkblue;
+    padding: 30px;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 60px;
+    width: 60px; 
+    padding: 8px 16px;
+    border-radius: 15px;
+} 
+
+.header-link {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 16px 0px;  
+}
+
+.header-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+} 
+/*Hero Image/Text Section*/
+.hero {
+    display: flex;
+    background-color: darkblue;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero-image img {
+    height: 300px;
+    width: 300px;
+    background-position: center;
+}
+
+.hero-text {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 600px; 
+} 
+
+.hero button {
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    margin: 20px 0px 20px 0px;
+    border-radius: 5px;
+} 
+
+/*Information Section*/
+.info {
+    display: flex;
+    background-color: yellow; 
+    padding: 20px; 
+    flex-direction: column;
+    justify-content: center;
+} 
+
+.info-header {
+    font-size: 24px;
+    justify-content: center; 
+    color: darkblue;
+} 
+.team-image {
+    display: flex;
+    gap: 100px; 
+    justify-content: center; 
+    color: darkblue;
+}
+.team-image img {
+    height: 120px;
+    width: 120px; 
+    border-radius: 10px;
+    border: 3px solid darkblue;
+} 
+
+/*Quote Section*/ 
+
+.quote {
+    justify-content: center;
+    padding: 60px 0px 40px 0px; 
+    font-size: 24px;
+    font-style: italic;
+    background-color: darkblue;
+    color: white;
+} 
+
+/*Support Section*/
+.support {
+    display: flex;
+    justify-content: center;
+    margin: 40px 200px;
+} 
+
+.message {
+    flex: 1;
+    background-color: yellow;
+    width: 300px;
+    color: darkblue;
+} 
+
+.message button {
+    color: darkblue;
+    margin: 20px; 
+    border-radius: 5px;
+    font-weight: bold; 
+    border-color: darkblue;
+} 
+
+/*Footer Section*/
+.footer {
+    background-color: darkblue;
+    color: white;
+    font-size: 12px;
+    align-items: center;
+}
